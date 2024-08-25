@@ -1,0 +1,180 @@
+.drummers {
+  margin: 25rem auto 15rem;
+  padding: 0 10rem;
+}
+
+.drummers_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.drummers_content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.drummers_content h1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 6.112rem;
+  letter-spacing: -4px;
+  text-align: left;
+}
+
+.drummers_content p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.69rem;
+  max-width: 74.4rem;
+  text-align: left;
+}
+
+.drummers_content_media {
+  position: relative;
+  height: 46.9rem;
+  width: 74.2rem;
+}
+
+.drummers_content_media_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.drummers_stats_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.drummers_stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  width: 32.7rem;
+  height: 100%;
+  background: #fff;
+  border-radius: 2.6rem;
+}
+
+.drummers_stats_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.drummers_stats_container h1 {
+  font-size: 9.6rem;
+  font-weight: 800;
+  letter-spacing: -0.025rem;
+  text-align: left;
+}
+
+.drummers_stats_demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13.7rem;
+  height: 5.5rem;
+  padding: 19px 36px 19px 36px;
+  gap: 10px;
+  border-radius: 128px;
+  opacity: 0px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.432rem;
+  letter-spacing: -0.025rem;
+  text-align: left;
+  background: #f1ddc4;
+  margin-top: -5rem;
+}
+
+@media (max-width: 1250px) {
+  .drummers {
+    margin: 30rem auto 15rem;
+  }
+
+  .drummers_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .drummers_stats_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .drummers_stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .drummers {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .drummers {
+    margin: 40rem auto 7rem;
+  }
+
+  .drummers_content_media {
+    position: relative;
+    height: 39rem;
+    width: 100%;
+  }
+
+  .drummers_stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+
+  .drummers_content {
+    gap: 2rem;
+  }
+
+  .drummers_content h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: -2.5px;
+  }
+}
+
+@media (max-width: 430px) {
+  .drummers_content_media {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+  }
+
+  .drummers_content_media_image {
+    object-fit: fill;
+  }
+}

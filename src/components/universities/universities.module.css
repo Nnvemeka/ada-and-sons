@@ -1,0 +1,211 @@
+.universities {
+  padding: 10rem;
+}
+
+.universities_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  border-radius: 2rem;
+  padding: 12rem 0;
+  background: #ebebeb;
+  position: relative;
+}
+
+.universities_container {
+  display: flex;
+  align-items: flex-start;
+  overflow-x: auto;
+  gap: 6rem;
+  padding: 0 10rem;
+  width: 100%;
+}
+
+.universities_container {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.universities_container::-webkit-scrollbar,
+.universities_card ::-webkit-scrollbar {
+  display: none;
+}
+
+.universities_text {
+  margin-left: 10rem;
+  max-width: 54.4rem;
+  font-size: 6.4rem;
+  font-weight: 700;
+  letter-spacing: -4px;
+  line-height: 61.12px;
+  text-align: left;
+}
+
+.universities_card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  max-height: 96.2rem;
+  max-width: 91.9rem;
+  background: #f4f4f4;
+}
+
+.universities_card_gallery {
+  display: flex;
+  gap: 2rem;
+}
+
+.universities_card_side_gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.universities_card_main_media {
+  position: relative;
+  height: 59.2rem;
+  width: 65.5rem;
+}
+
+.universities_card_side_media {
+  position: relative;
+  height: 13.6rem;
+  width: 15.9rem;
+}
+
+.universities_card_main_media_image,
+.universities_card_side_media_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.universities_card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 84.5rem;
+  max-height: 27.7rem;
+  padding: 4.8rem 6.4rem;
+  border-radius: 2rem;
+  background: #fbfbfb;
+}
+
+.universities_card_text h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 34.38px;
+  text-align: left;
+}
+
+.universities_card_text p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 26.9px;
+  text-align: left;
+}
+
+.universities_top_asset {
+  position: absolute;
+  top: 2%;
+  right: 0;
+}
+
+.universities_bottom_asset {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.universities_content {
+  display: flex;
+  gap: 6rem;
+  position: relative;
+}
+
+.universities_button_container {
+  position: absolute;
+  bottom: -15%;
+  right: 0;
+}
+
+@media (max-width: 1024px) {
+  .universities {
+    padding: 10rem 4rem;
+  }
+
+  .universities_wrapper {
+    padding: 6rem 0;
+  }
+
+  .universities_container {
+    gap: 2rem;
+    padding: 0 5rem;
+  }
+
+  .universities_text {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .universities {
+    padding: 10rem 2rem;
+  }
+
+  .universities_container {
+    padding: 0 2rem;
+  }
+
+  .universities_text {
+    margin-left: 2rem;
+  }
+
+  .universities_text {
+    margin-left: 5rem;
+    max-width: 44.1rem;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 40.12px;
+    letter-spacing: -4px;
+    z-index: 2;
+  }
+
+  .universities_card {
+    max-height: 96.2rem;
+    max-width: 85rem;
+  }
+
+  .universities_card_main_media {
+    position: relative;
+    height: 25rem;
+    width: 30rem;
+  }
+
+  /* .universities_card_side_media {
+    position: relative;
+    height: 12rem;
+    width: 100%;
+  } */
+
+  .universities_card_text h1 {
+    font-size: 2.6rem;
+    line-height: 28.38px;
+  }
+
+  .universities_card_text p {
+    font-size: 1.4rem;
+    line-height: 18.9px;
+  }
+
+  .universities_card_text {
+    max-width: 100%;
+    padding: 2rem;
+  }
+}

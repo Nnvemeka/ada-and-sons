@@ -1,0 +1,161 @@
+.footer {
+  padding: 0 10rem;
+  background: #ebebeb;
+  width: 100%;
+}
+
+.footer_wrapper {
+  position: relative;
+}
+
+.footer_card {
+  background: #fff;
+  border-radius: 2rem;
+  min-height: 54rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+  position: absolute;
+  top: -5rem;
+}
+
+.footer_card_content {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.footer_card_content_text {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 34.4rem;
+}
+
+.footer_card_content_text p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 26.9px;
+  text-align: left;
+  color: #888888;
+}
+
+.footer_card_links_wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 2rem;
+}
+
+.footer_card_links_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer_card_links_container h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 24.21px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #cf8900;
+}
+
+.footer_card_link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 20.02px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  color: #7b7b7b;
+}
+
+.footer_card_link:hover {
+  color: #0cad8e;
+  font-weight: 700;
+}
+
+.footer_card_copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 4rem;
+}
+
+.footer_card_copy p {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 33.26px;
+  text-align: left;
+}
+
+.footer_card_copy p span {
+  font-weight: 600;
+  color: #0cad8e;
+}
+
+.footer_spacer {
+  height: 2px;
+  width: 100%;
+  background: #7b7b7b;
+}
+
+.footer_card_socials {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 0 2rem;
+  }
+
+  .footer_card_content {
+    flex-direction: column;
+  }
+
+  .footer_card_content_text {
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .footer_card_links_wrapper {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .footer_card_copy {
+    flex-direction: column-reverse;
+    padding: 4rem 2rem 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_card_content_text {
+    flex-direction: column;
+  }
+
+  .footer_card_links_wrapper {
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  .footer_card_copy {
+    padding: 2rem 0;
+  }
+
+  .footer_card_copy p {
+    font-size: 1.6rem;
+  }
+}
