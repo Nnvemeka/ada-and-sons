@@ -29,8 +29,7 @@ const FooterCard = () => {
           />
           <p>
             Ada & Sons, located in southeastern Nigeria, is renowned for its
-            coal mining history and is often referred to as the "Coal City
-            State."
+            coal mining history and is often referred to as the Coal City State.
           </p>
         </div>
         <div className={styles.footer_card_links_wrapper}>

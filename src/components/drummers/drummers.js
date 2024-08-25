@@ -13,11 +13,11 @@ const Drummers = () => {
             asifsdijsjbijsfoi
           </h1>
           <p>
-            "Where vibrant culture thrives! Nestled in Nigeria, our rich
-            heritage resonates through traditional dances, captivating
-            festivals, and warm hospitality. Explore landmarks, savour cuisine,
-            and immerse in Ada & Sons's cultural embrace. Discover the magic of
-            our cherished cultural treasure."
+            Where vibrant culture thrives! Nestled in Nigeria, our rich heritage
+            resonates through traditional dances, captivating festivals, and
+            warm hospitality. Explore landmarks, savour cuisine, and immerse in
+            Ada & Sons's cultural embrace. Discover the magic of our cherished
+            cultural treasure.
           </p>
           <figure className={styles.drummers_content_media}>
             <Image
